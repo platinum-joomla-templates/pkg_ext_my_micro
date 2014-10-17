@@ -1,0 +1,510 @@
+/*
+*------------------------------------------------------------------------------ 
+* @copyright     Copyright (C) 20011-2014 Ext-Joom.com. All Rights Reserved.
+* @license       Commercial license; see http://www.ext-joom.com
+* @authors       Ext-Joom.com
+* @websites:  	  http://www.ext-joom.com 
+* @date modified: 07/03/2014 - 13:00 
+*------------------------------------------------------------------------------
+*/
+
+// ---------------------------------------------------------
+// MAIN TEMPLATE STYLES
+// ---------------------------------------------------------
+
+// 
+// HEADER
+// ---------------------------------------------------------
+
+.t3-header {
+  padding-top: @t3-global-padding;
+  padding-bottom: @t3-global-padding;
+}
+
+
+// Logo
+// ----
+.logo {
+
+  text-align: center;
+
+  // Left align the logo on  Tablets / Desktop
+  @media screen and (min-width: @screen-sm) {
+    text-align: left;
+  }
+
+  a {
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+  }
+}
+
+// Logo Image
+// ----------
+.logo-image {
+  // Hide sitename and slogan
+  span, small {
+    display: none;
+  }
+}
+
+// Logo Text
+// ----------
+.logo-text {
+
+  a {
+    text-decoration: none;
+    font-size: ceil(@font-size-base * 2);
+    font-weight: bold;
+  }
+
+  &:hover a,
+  a:hover,
+  a:active,
+  a:focus {
+    text-decoration: none;
+  }
+
+  // Taglines
+  .site-slogan {
+    display: block;
+    font-size: @font-size-base;
+    margin-top: 5px;
+  }
+
+}
+
+// Head Search
+// -----------
+.head-search {
+
+  margin-top: 5px;
+  .clearfix();
+
+  form {
+    margin: 0;
+  }
+  
+  label {
+    display: none;
+  }
+  
+  .search {
+    position: relative;
+    // Place a search icon
+    &:before {
+      font-family: "FontAwesome";
+      content: "\f002";
+      display: block;
+      position: absolute;
+      left: 10px;
+      top: 6px;
+      color: @gray;
+    }
+    // Float to right on Tablets / Desktop
+    @media screen and (min-width: @screen-sm) {
+      float: right;
+    }
+  }
+  
+  .form-control {
+    width : 100%;
+    padding-left: 30px;
+
+    // Width Control on Tablets / Desktop
+    @media screen and (min-width: @screen-sm) {
+      //width: 150px;
+      // focus state
+      &:focus {
+        //width: 200px;
+      }
+    }
+
+  }
+
+}
+
+// ---------------------------------------------------------
+// SLIDER
+// ---------------------------------------------------------
+
+.ext-slider-wrap {
+	.ext-slider {
+		margin: 0 auto; 
+		max-width: 1600px;
+		padding:0 0 20px 0;
+		
+		img {
+		  max-width:100%;
+		}
+		
+		.mod_ext_bxslider_images {
+			margin: 0;
+			padding: 0;
+			
+			a {
+			  color:#fff;
+			  
+			  &:hover,
+			  &:focus {
+			    color:#fff;
+				text-decoration: underline;
+			  }
+			}
+			
+			.bx-wrapper {
+			  margin: 0 auto;
+			  
+				.bx-viewport {
+				  box-shadow: none; 
+				  border: none; 
+				}
+				
+				.bxlider-custom-html {
+				  position: absolute;
+				  top: 15%;
+				  bottom: inherit;
+				  left: 8%;
+				  width: 100%;
+				  padding: 25px;
+				  display: none;
+				  background: @extThemeColor;
+				  color: #fff;
+				   
+				   @media screen and (min-width: @screen-sm) {
+						width: 350px;
+						display: inline-block;
+					}				  
+				}
+				
+				.bx-controls-direction {
+				  
+				  a {
+				    width: 100px;
+					height: 100%;
+					margin-top:0;
+					opacity: 0.6;
+					top:0;
+					
+					&:hover {					
+					  opacity: 1;
+					}
+				  }	
+				  a.bx-prev {
+				    left: 0;
+					background: url(../images/left.png) no-repeat 50% 50%;					
+				  }
+				  a.bx-next {
+				    right: 0;
+					background: url(../images/right.png) no-repeat 50% 50%;
+				  }
+				  
+				}
+				
+				
+				
+				.bx-pager {
+				  position: absolute;
+				  bottom: 15px;
+				  a {
+				    background: #fff;
+					width: 13px;
+					height: 13px;
+					-moz-border-radius: 0px;
+					-webkit-border-radius: 0px;
+					border-radius: 0px;
+					
+				    &:hover, 
+				    &:focus {
+					  background: @extThemeColor;
+				    }
+				  }
+				  a.active {
+				    background: @extThemeColor;
+				  }
+				}				
+			}
+		}
+	}
+}
+
+
+
+// ---------------------------------------------------------
+// FOLLOW
+// ---------------------------------------------------------
+
+.ext-follow-wrap {
+  background: @extThemeColor;
+  color: #fff;
+  padding: 20px 0;
+  
+  .ext-follow {
+    
+	.ext-follow-2 {
+	   background-color: darken(@extThemeColor, 5%);
+	}
+  
+  }
+
+  a {
+    color: #fff;
+	
+	&:focus,
+	&:hover {
+	   color: #fff;
+	}  
+  }
+}
+
+
+
+
+// ---------------------------------------------------------
+// SPOTLIGHTS
+// ---------------------------------------------------------
+
+.t3-spotlight {
+  img {
+    max-width:100%;
+  }
+}
+
+.t3-sl {
+  //padding-bottom: @t3-global-padding * 2;
+  padding-top: @t3-global-padding;
+  // Larger padding in Tablet / Desktop
+  @media screen and (min-width: @screen-sm) {
+    //padding-bottom: @t3-global-padding * 3;
+    //padding-top: @t3-global-padding * 3;
+  }
+}
+
+// Spotlight 1
+// -----------
+.t3-sl-1 {
+}
+
+// Spotlight 2
+// -----------
+.t3-sl-2 {
+}
+
+// Spotlight 3
+// -----------
+.t3-sl-3 {
+}
+
+// Spotlight 4
+// -----------
+.t3-sl-4 {
+}
+
+
+
+// ---------------------------------------------------------
+// MAIN BODY
+// ---------------------------------------------------------
+.t3-mainbody {
+  padding-top: @line-height-computed ;
+  padding-bottom: @line-height-computed;
+}
+
+// Content
+// -------
+.t3-content {
+  padding-top: @line-height-computed ;
+  padding-bottom: @line-height-computed;
+}
+
+// Sidebars
+// --------
+.t3-sidebar {
+  padding-top: @line-height-computed;
+  padding-bottom: @line-height-computed;
+}
+
+.t3-sidebar-1 {
+}
+
+.t3-sidebar-2 {
+}
+
+
+
+// ---------------------------------------------------------
+// FOOTER
+// ---------------------------------------------------------
+.t3-footer {
+  border-top: 1px solid @t3-border-color;
+  background: @t3-footer-background;
+  color: @t3-footer-text-color;
+  .clearfix();
+
+  // small
+  small {
+    display: block;
+    font-size: 100%; //Use global footer font size.
+  }
+
+  // links
+  a {
+	color: @brand-primary;
+    // Link States
+    &:hover, &:active, &:focus {
+	  color: @brand-primary;	
+    }
+  }
+  ul {
+	.caret {
+	  display: none;
+	}
+	//
+	> li ul.dropdown-menu {
+	  display: none;
+	}	
+  }
+
+}
+
+// Foot Nav
+// --------
+.t3-footnav {
+  padding: @t3-global-padding 0;
+  .clearfix();
+
+  // Larger padding on Tablet / Desktop
+  @media screen and (min-width: @screen-sm) {
+    //padding: (@t3-global-padding * 2) 0;
+  }
+
+  // Footnav Modules
+  .t3-module {
+    background: @t3-footer-module-background;
+    color: @t3-footer-module-text-color;
+    margin-top: @line-height-computed / 2;
+    margin-bottom: @line-height-computed / 2;
+
+    .module-title {
+      color: @t3-footer-module-title-color;
+      font-size: @font-size-large;
+      margin-bottom: @line-height-computed / 2;
+    }
+
+    ul {
+      list-style: none;
+      margin-left: 0;
+      margin-bottom: 0;
+      padding-left: 0;
+	  
+	  > li.active {	   
+	   // links
+		> a {
+          color: @t3-footer-module-text-color;
+		  padding: 0;
+		  background: none;
+		  
+          // Link States
+          &:hover, &:active, &:focus {
+            color: @t3-footer-module-text-color;
+			text-decoration: underline;
+          }
+        }	  
+	  }
+	  
+	  
+      > li {
+        line-height: 24px;
+        // links		
+        > a {
+          color: @t3-footer-module-text-color;
+		  padding: 0;
+		  background: none;
+		  
+          // Link States
+          &:hover, &:active, &:focus {
+            color: @t3-footer-module-text-color;
+			text-decoration: underline;
+          }
+        }
+      }
+    }
+
+  }
+
+}
+
+// Copyright
+// ---------
+.t3-copyright {
+  border: none;
+  font-size: @font-size-small;
+  padding: 5px 0 50px 0;
+  .clearfix();
+  
+  ul {
+    float: right;		
+	.caret {
+	  display: none;
+	}
+	
+    > li {
+	  float: left;
+	  
+	  > a {
+        color: @t3-footer-module-text-color;
+		background: none;
+		padding: 5px 10px;
+		  
+          // Link States
+        &:hover, &:active, &:focus {
+          color: @t3-footer-module-text-color;
+		  text-decoration: underline;
+		  background: #eee;
+        }
+      }	  
+    }
+	> .active > a {
+	   background: none;
+	   color: @t3-footer-module-text-color; 
+	   
+	   
+	   &:hover, &:active, &:focus {
+	     color: @t3-footer-module-text-color;
+		 text-decoration: underline;
+		 background: #eee;
+	   }
+	}
+	> li ul.dropdown-menu {
+	  display: none;
+	}
+  }
+  
+  
+  
+  
+  small {
+    margin-bottom: 5px;
+  }
+}
+
+.copyright {
+    margin-bottom: @line-height-computed;
+}
+
+.poweredby {
+  text-align: center;
+  .clearfix();
+
+  // Align right on Tablet / Desktop
+  @media screen and (min-width: @screen-sm-max) {
+    //text-align: right;
+  }
+
+  .t3-logo,
+  .t3-logo-small {
+    opacity: .8;
+    display: inline-block;
+  }
+}

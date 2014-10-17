@@ -1,0 +1,26 @@
+// RTL STYLES
+// ------------------------------------------------------
+
+// Article Images
+// --------------
+article img[align=left],
+.img_caption.left,
+.pull-left.item-image {
+  @media (max-width: @screen-sm) {
+    margin: 0 @grid-gutter-width @t3-global-margin 0;
+  }
+}
+
+article img[align=right],
+.img_caption.right,
+.pull-right.item-image {
+  @media (max-width: @screen-sm) {
+    margin: 0 0 @t3-global-margin @grid-gutter-width;
+  }
+}
+
+.languageswitcherload {
+  ul {
+    float: left;
+  }
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade" client="site">
+	<name>ext_my_micro</name>
+	<version>1.1</version>
+	<creationDate>04/03/2014</creationDate>
+	<author>Platinum-Joomla-Templates.com</author>
+	<authorEmail>extjoom@gmail.com</authorEmail>
+	<authorUrl>http://platinum-joomla-templates.com/</authorUrl>
+	<copyright>Copyright (C) 2011-2014 Ext-Joom.com. All Rights Reserved.</copyright>
+	<license>Commercial license http://platinum-joomla-templates.com/</license>
+	<t3>
+		<base>base-bs3</base>
+	</t3>
+	<description>
+		<![CDATA[
+		<div align="center">
+			<div class="alert alert-success" style="background-color:#DFF0D8;border-color:#D6E9C6;color: #468847;padding: 1px 0;">			
+				<p> </p>
+				<span style="color:#FF0000">Note: Templates requires T3 plugin to be installed and enabled.</span><p></p>
+				<p>Copyright 2011 - 2014 <a href='http://platinum-joomla-templates.com/' title='Visit Platinum-Joomla-Templates.com!'>Platinum-Joomla-Templates.com</a>.</p>
+			</div>
+			<style>table.adminform{width: 100%;}</style>
+		</div>
+		]]>
+	</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>thememagic.xml</filename>
+		<filename>templateInfo.php</filename>
+		<filename>templateHook.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>etc</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>less</folder>
+		<folder>language</folder>
+		<folder>images</folder>
+		<folder>tpls</folder>
+	</files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_ext_my_micro.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_ext_my_micro.sys.ini</language>
+	</languages>
+
+	<positions>
+		<position>languageswitcherload</position>
+		<position>head-search</position>
+		<position>mainnav</position>
+		<position>navhelper</position>
+		<position>breadcrumbs</position>
+		<position>off-canvas</position>
+		<position>slider</position>
+		<position>sidebar-1</position>
+		<position>sidebar-2</position>
+		<position>mast-col</position>
+		<position>footer</position>
+		<position>home-0</position>
+		<position>home-1</position>
+		<position>home-2</position>
+		<position>home-3</position>
+		<position>home-4</position>
+		<position>home-5</position>
+		<position>follow-1</position>
+		<position>follow-2</position>
+		<position>position-0</position>
+		<position>position-1</position>
+		<position>position-2</position>
+		<position>position-3</position>
+		<position>position-4</position>
+		<position>position-5</position>
+		<position>position-6</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>position-15</position>
+		<position>footer-0</position>
+		<position>footer-1</position>
+		<position>footer-2</position>
+		<position>footer-3</position>
+		<position>footer-4</position>
+		<position>footer-5</position>
+		<position>footer-6</position>
+		<position>footer-7</position>
+		<position>footer-8</position>
+		<position>footer-9</position>
+		<position>footer-10</position>
+		<position>footernav</position>
+		<position>debug</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/t3/includes/depend">
+
+			<!-- Sample for add or disable template parameters -->
+			<!--fieldset name="menu_params" label="T3_PARAMS_MEGAMENU">
+				<field name="group_disable" type="t3depend" function="@group">
+					<option for="menu_as_bg" value="no">menu_as_bg</option>
+				</field>
+			</fieldset-->
+			
+		</fields>
+	</config>
+
+	<updateservers>
+		
+	</updateservers>
+
+</extension>

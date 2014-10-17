@@ -1,0 +1,43 @@
+
+
+.ext-home {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ext-home .t3-sl-1 {
+  padding: 0;
+}
+.ext-home .resp-accordion {
+  clear: both;
+  border: 1px solid #c1c1c1;
+}
+.ext-home .resp-tab-content {
+  float: left;
+  width: 100% !important;
+  border: none !important;
+  padding: 10px 0 !important;
+}
+.ext-home .resp-tab-content img {
+  max-width: 100%;
+}
+.ext-home .resp-tab-active {
+  border: none !important;
+  background: #5d2e74 !important;
+  color: #fff;
+}
+.ext-home .resp-tabs-list {
+  margin-left: 15px !important;
+}
+.ext-home .resp-tabs-list li {
+  padding: 8px 15px !important;
+}
+.ext-home .resp-arrow {
+  border-top: none;
+}
+.ext-home .resp-tab-active {
+  background: #5d2e74 !important;
+  color: #fff;
+}
+.ext-home .resp-tab-active .resp-arrow {
+  border-bottom: none;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5" method="upgrade">
+    <name>EXT My Micro Package</name>
+    <packagename>ext_my_micro</packagename>
+    <version>1.0</version>
+    <url>http://platinum-joomla-templates.com/</url>
+    <creationDate>04/03/2014</creationDate>
+    <copyright>Copyright (C) 2011-2014 Platinum-Joomla-Templates.com. All Rights Reserved</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>platinum.joomla.templates@gmail.com</authorEmail>   
+	<authorUrl>http://platinum-joomla-templates.com/</authorUrl>
+    <author>Platinum-Joomla-Templates.com</author>
+    <packager>EXT My Micro</packager>
+    <packagerurl>http://platinum-joomla-templates.com/</packagerurl>
+    <description>	
+	<![CDATA[
+		<div align="center">
+			<div class="alert alert-success" style="background-color:#DFF0D8;border-color:#D6E9C6;color: #468847;padding: 1px 0;">			
+				<p> </p>
+				<span style="color:#FF0000">Note: Templates requires T3 plugin to be installed and enabled.</span><p></p>
+				<p>Copyright 2011 - 2014 <a href='http://platinum-joomla-templates.com/' title='Visit Platinum-Joomla-Templates.com!'>Platinum-Joomla-Templates.com</a>.</p>
+			</div>
+			<style>table.adminform{width: 100%;}</style>
+		</div>
+		]]>
+	</description>
+    <files folder="source">
+        <file type="plugin" id="t3" group="system">plg_system_t3</file>
+        <file type="template" id="ext_my_micro" client="site">tpl_ext_my_micro</file>
+    </files>
+    <updateservers>
+       
+    </updateservers>
+</extension>

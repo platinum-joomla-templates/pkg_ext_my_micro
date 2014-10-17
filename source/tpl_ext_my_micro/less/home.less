@@ -1,0 +1,83 @@
+/*
+*------------------------------------------------------------------------------ 
+* @copyright     Copyright (C) 20011-2014 Ext-Joom.com. All Rights Reserved.
+* @license       Commercial license; see http://www.ext-joom.com
+* @authors       Ext-Joom.com
+* @websites:  	  http://www.ext-joom.com 
+* @date modified: 07/03/2014 - 13:00 
+*------------------------------------------------------------------------------
+*/
+
+
+// VARIABLES & MIXINS
+// ------------------
+@import "vars.less"; // Modify this for custom colors, font-sizes, etc
+
+
+// ---------------------------------------------------------
+// HOME
+// ---------------------------------------------------------
+.ext-home {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  // 
+  // HOME SPOTLIGHTS
+  // ---------------------------------------------------------
+
+  // Spotlight 1
+  // -----------
+  .t3-sl-1 {
+    padding: 0;
+  }
+
+	// ---------------------------------------------------------
+	// EXT TABS
+	// ---------------------------------------------------------
+	
+	.resp-accordion {
+		clear: both;
+		border: 1px solid #c1c1c1;
+		//background: @extThemeColor !important;
+		//color: #fff;
+	}
+	.resp-tab-content {
+	  float: left;
+	  width: 100% !important;
+	  border: none !important;
+	  padding: 10px 0 !important;
+		
+	  img {
+		max-width: 100%;
+	  }
+	}
+
+	.resp-tab-active {
+	  border: none !important;
+	  background: @extThemeColor !important;
+	  //padding: 8px 15px !important;
+	  color: #fff;  
+	}
+	.resp-tabs-list {
+	  margin-left: 15px !important;
+	  
+	  li {
+		padding: 8px 15px !important;
+	  }	
+	}
+
+	.resp-arrow {
+	  border-top: none;
+	}
+
+	.resp-tab-active {
+	  background: @extThemeColor !important;
+	  color: #fff;	
+	  
+	  .resp-arrow {
+		border-bottom: none;
+	  }
+	}
+
+// End Home Spotlight
+}

@@ -1,0 +1,144 @@
+/*
+*------------------------------------------------------------------------------ 
+* @copyright     Copyright (C) 20011-2014 Ext-Joom.com. All Rights Reserved.
+* @license       Commercial license; see http://www.ext-joom.com
+* @authors       Ext-Joom.com
+* @websites:  	  http://www.ext-joom.com 
+* @date modified: 07/03/2014 - 13:00 
+*------------------------------------------------------------------------------
+*/
+
+
+// VARIABLES & MIXINS
+// ------------------
+@import "vars.less"; // Include Variables and Mixins
+
+
+// EXTEND STYLE IN BASE
+// --------------------
+@import "../../../plugins/system/t3/base-bs3/less/off-canvas.less";
+
+
+
+//
+// OFF-CANVAS
+// -------------------------------------
+
+// Toggle Button
+// -------------------
+.off-canvas-toggle {
+  border-radius: 0;
+  border: 0;
+  padding: 0;
+  width: @navbar-height;
+  height: @navbar-height;
+  line-height: @navbar-height;
+  background-color: @extThemeColor;
+  border-color: @extThemeColor;
+  color: #fff;
+  &:focus {
+    outline: none;
+	color: #fff;
+  }
+  &:hover {
+    color: #fff;
+  }
+}
+
+
+//
+// OFF-CANVAS CONTENT STYLES
+// -------------------------------------
+.t3-off-canvas {
+
+  // Generic
+  // -----------------------------------
+  background: @t3-off-canvas-background;
+  color: @t3-off-canvas-text-color;
+
+
+  // Header
+  // -----------------------------------
+  .t3-off-canvas-header {
+    background: @t3-off-canvas-header-background;
+    color: @t3-off-canvas-header-text-color;
+    padding: 0 0 0 @padding-base-horizontal;
+    height: 35px;
+
+    // Title
+    h2 {
+      margin: 0;
+      line-height: 35px;
+      font-size: @font-size-base;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+  }
+
+  // Close Button
+  .close {
+    margin: 0;
+    height: 35px;
+    line-height: 35px;
+    width: 35px;
+    background: darken(@t3-off-canvas-header-background, 20%);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+
+  // Body
+  // -----------------------------------
+  .t3-off-canvas-body {
+
+    padding: (@padding-base-vertical * 4)  @padding-base-horizontal;
+
+    // Links
+    // ------------
+    a {
+      color: @t3-off-canvas-link-color;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        color: @t3-off-canvas-link-hover-color;
+        text-decoration: none;
+      }
+
+      &:focus {
+        .tab-focus();
+      }
+    }
+
+    .dropdown-menu .active a {
+      background: transparent;
+    }
+
+
+    // Navigations
+    // ------------
+    .nav {
+    }
+
+    // Dropdown Menu
+    .dropdown-menu {
+    }
+
+
+    // Modules
+    // ------------
+    .t3-module {
+      margin-bottom: @line-height-computed;
+    }
+
+    .module-title  {
+      margin-bottom: @line-height-computed / 2;
+    }
+
+  // End Off-Canvas Body
+  }
+
+// End Off-Canvas Content Styles
+}

@@ -1,0 +1,37 @@
+/** 
+ *------------------------------------------------------------------------------
+ * @package       T3 Framework for Joomla!
+ *------------------------------------------------------------------------------
+ * @copyright     Copyright (C) 2004-2013 JoomlArt.com. All Rights Reserved.
+ * @license       GNU General Public License version 2 or later; see LICENSE.txt
+ * @authors       JoomlArt, JoomlaBamboo, (contribute to this project at github 
+ *                & Google group to become co-author)
+ * @Google group: https://groups.google.com/forum/#!forum/t3fw
+ * @Link:         https://github.com/t3framework/ 
+ *------------------------------------------------------------------------------
+*/
+
+//
+// INCLUDES VARIOUS FUNCTIONS FOR T3
+// ---------------------------------------------------------
+
+
+// Logo control class
+// ---------------------------------------------------------
+.logo-control {
+  .logo-img-sm {
+    display: none;
+  }
+  .logo-img {
+    display: block;
+  }
+}
+
+
+// for interact with javascript
+// ---------------------------------------------------------------------------
+// place holder class to detect the grid variables value in javascript
+.body-data-holder:before {
+	display: none;
+	content: "grid-float-breakpoint:@{navbarCollapseWidth} screen-xs:600px screen-sm:@{gridRowWidth768} screen-md:@{gridRowWidth} screen-lg:@{gridRowWidth1200}";
+}
