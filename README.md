@@ -11,7 +11,7 @@ Ext My Micro - responsive Joomla template for Business
 
 <strong>Feature List:</strong>
 <ul>
-<li>Powered by T3 Framework</li>
+<li>Powered by <a target="_blank" title="T3 framework"  href="http://t3-framework.org">T3 Framework</a></li>
 <li>Joomla 2.5.x - 3.x</li>
 <li>Bootstrap 3</li>
 <li>5+ theme</li>
