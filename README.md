@@ -16,10 +16,13 @@ Ext My Micro - responsive Joomla template for Business
 <li>Cross Browser Support: IE10+, Firefox, Chrome, Opera</li>
 </ul>
 
-Live Demo - http://my-micro.platinum-joomla-templates.com/
-Documentation -http://t3-framework.org/documentation.html 
-FULL INFO - http://platinum-joomla-templates.com/en/joomla-templates/ext-my-micro.html
+<p>Live Demo - http://my-micro.platinum-joomla-templates.com/</p>
+<p>Documentation -http://t3-framework.org/documentation.html  </p>
+<p>FULL INFO - http://platinum-joomla-templates.com/en/joomla-templates/ext-my-micro.html </p>
 
+<p> </p>
+<p> </p>
+ 
  
 <h4>HTML5, Bootstrap and LESS</h4>
 
