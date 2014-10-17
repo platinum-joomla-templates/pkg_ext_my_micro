@@ -1,38 +1,43 @@
 Ext My Micro - responsive Joomla template for Business
-inShare
 ================
 
 
-The Responsive Joomla template for Business – Ext My Micro supports both Joomla 3 and Joomla 2.5 and will transform your ordinary looking Joomla site into professional business site.
+<p>The Responsive Joomla template for Business – Ext My Micro supports both Joomla 3 and Joomla 2.5 and will transform your ordinary looking Joomla site into professional business site.</p>
 
-Ext My Micro is built on the robust T3 Framework with Bootstrap 3 at core, supports RTL language layout at default. In QuickStart includes 2 professional module: EXT bxSlider images module & EXT Easy Responsive Tabs to Accordion of module positions.
+<p>Ext My Micro is built on the robust T3 Framework with Bootstrap 3 at core, supports RTL language layout at default. In QuickStart includes 2 professional module: EXT bxSlider images module & EXT Easy Responsive Tabs to Accordion of module positions.</p>
 
-Feature List:
+<strong>Feature List:</strong>
+<ul>
+<li>Powered by T3 Framework</li>
+<li>Joomla 2.5.x - 3.x</li>
+<li>Bootstrap 3</li>
+<li>5+ theme</li>
+<li>MegaMenu</li>
+<li>Cross Browser Support: IE10+, Firefox, Chrome, Opera</li>
+</ul>
 
-    Powered by T3 Framework
-    Joomla 2.5.x - 3.x
-    Bootstrap 3
-    5+ theme
-    MegaMenu
-    Cross Browser Support: IE10+, Firefox, Chrome, Opera
+Live Demo - http://my-micro.platinum-joomla-templates.com/
+Documentation -http://t3-framework.org/documentation.html 
+FULL INFO - http://platinum-joomla-templates.com/en/joomla-templates/ext-my-micro.html
 
-Live Demo
-Documentation
-Free download
  
-HTML5, Bootstrap and LESS
+<h4>HTML5, Bootstrap and LESS</h4>
 
-HTML 5 ensures web experience and visualization quality that benefits from rich markup and compatibility. With Bootstrap and LESS- the Dynamic Stylesheet language, you can standardize your grid, typography, and modules with less efforts. All are built in T3 Framework at core.
-Fully Responsive
+<p>HTML 5 ensures web experience and visualization quality that benefits from rich markup and compatibility. With Bootstrap and LESS- the Dynamic Stylesheet language, you can standardize your grid, typography, and modules with less efforts. All are built in T3 Framework at core.</p>
 
-T3 Framework is one of the first responsive Joomla frameworks template. It supports numbers of responsive layouts including: Wide, Normal, XTablet, Tablet and Mobile.
-Megamenu and Off-canvas
+<h4>Fully Responsive</h4>
 
-Megamenu and Off-canvas are highlight features in T3 Framework. It allows you to build up a powerful menu system and you are full control.
-Flexible layout system
+<p>T3 Framework is one of the first responsive Joomla frameworks template. It supports numbers of responsive layouts including: Wide, Normal, XTablet, Tablet and Mobile.</p>
 
-Does not only look pretty but also is an extremely customizable framework, especially when it comes to layout customization based on visual layout configuration.
-Font Awesome 3 & 4
+<h4>Megamenu and Off-canvas</h4>
 
-The new version of favorite Font awesome (Font awesome 4) is now available in T3. T3 now supports both Font Awesome 4 and Font Awesome 3.
+<p>Megamenu and Off-canvas are highlight features in T3 Framework. It allows you to build up a powerful menu system and you are full control.</p>
+
+<h4>Flexible layout system</h4>
+
+<p>Does not only look pretty but also is an extremely customizable framework, especially when it comes to layout customization based on visual layout configuration.</p>
+
+<h4>Font Awesome 3 & 4</h4>
+
+<p>The new version of favorite Font awesome (Font awesome 4) is now available in T3. T3 now supports both Font Awesome 4 and Font Awesome 3.</p>
  
