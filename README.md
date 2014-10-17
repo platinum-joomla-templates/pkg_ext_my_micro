@@ -2,6 +2,9 @@ Ext My Micro - responsive Joomla template for Business
 ================
 
 
+<img src="http://lh4.googleusercontent.com/-iv--rSwpoT8/VECuXLigD9I/AAAAAAAAAWo/VRhBmBhkEao/w800-h400-no/ext_my_micro_min.png">
+
+
 <p>The Responsive Joomla template for Business – Ext My Micro supports both Joomla 3 and Joomla 2.5 and will transform your ordinary looking Joomla site into professional business site.</p>
 
 <p>Ext My Micro is built on the robust T3 Framework with Bootstrap 3 at core, supports RTL language layout at default. In QuickStart includes 2 professional module: EXT bxSlider images module & EXT Easy Responsive Tabs to Accordion of module positions.</p>
