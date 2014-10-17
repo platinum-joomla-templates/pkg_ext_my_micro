@@ -17,7 +17,7 @@ Ext My Micro - responsive Joomla template for Business
 </ul>
 
 <p>Live Demo - http://my-micro.platinum-joomla-templates.com/</p>
-<p>Documentation -http://t3-framework.org/documentation.html  </p>
+<p>Documentation - http://t3-framework.org/documentation.html  </p>
 <p>FULL INFO - http://platinum-joomla-templates.com/en/joomla-templates/ext-my-micro.html </p>
 
 <p> </p>
